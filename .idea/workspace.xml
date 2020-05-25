@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3cbf63-98f0-4cbc-ab8b-c11b973819ce" name="Default Changelist" comment="" />
+    <list default="true" id="1b3cbf63-98f0-4cbc-ab8b-c11b973819ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmoji/global_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepmoji/global_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/predict_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/predict_sentiment.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X6vLVLB5cV1cMU3DusAyZ6qcCj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -31,7 +40,7 @@
       <recent name="C:\Users\danie\OneDrive\Research\Projects\Project Sentiment Race\DeepMojiStockTwits" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.to_pickle (1)">
+  <component name="RunManager" selected="Python.predict_sentiment">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepMojiStockTwits" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,8 +182,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.to_pickle (1)" />
         <item itemvalue="Python.predict_sentiment" />
+        <item itemvalue="Python.to_pickle (1)" />
         <item itemvalue="Python.fit_stocktwits" />
         <item itemvalue="Python.convert_tweet_format" />
         <item itemvalue="Python.to_pickle" />
@@ -212,6 +221,9 @@
       <workItem from="1590331856437" duration="177000" />
       <workItem from="1590396609414" duration="191000" />
       <workItem from="1590398482291" duration="7025000" />
+      <workItem from="1590415602011" duration="504000" />
+      <workItem from="1590417080348" duration="477000" />
+      <workItem from="1590433954413" duration="370000" />
     </task>
     <servers />
   </component>
@@ -219,52 +231,60 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.0.bottom" timestamp="1590433977211">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="2005" height="350" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1590433977211" />
     <state width="1637" height="163" key="GridCell.Tab.0.bottom/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.0.bottom/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.0.center" timestamp="1590433977210">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885084" />
+    <state width="2005" height="350" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1590433977210" />
     <state width="1637" height="163" key="GridCell.Tab.0.center/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.0.center/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.0.left" timestamp="1590433977209">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885084" />
+    <state width="2005" height="350" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1590433977209" />
     <state width="1637" height="163" key="GridCell.Tab.0.left/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.0.left/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.0.right" timestamp="1590433977210">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885084" />
+    <state width="2005" height="350" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1590433977210" />
     <state width="1637" height="163" key="GridCell.Tab.0.right/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.0.right/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.1.bottom" timestamp="1590434186563">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="2005" height="350" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1590434186563" />
     <state width="1637" height="163" key="GridCell.Tab.1.bottom/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.1.bottom/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.1.center" timestamp="1590434186563">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="2005" height="350" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1590434186563" />
     <state width="1637" height="163" key="GridCell.Tab.1.center/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.1.center/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.1.left" timestamp="1590434186563">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="2005" height="350" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1590434186563" />
     <state width="1637" height="163" key="GridCell.Tab.1.left/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.1.left/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
-    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1587733683072">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="350" key="GridCell.Tab.1.right" timestamp="1590434186563">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="2005" height="350" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1590434186563" />
     <state width="1637" height="163" key="GridCell.Tab.1.right/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
     <state width="1877" height="324" key="GridCell.Tab.1.right/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
   </component>
@@ -276,10 +296,21 @@
           <line>53</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/predict_sentiment.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/predict_sentiment.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepMojiStockTwits$predict_sentiment.coverage" NAME="predict_sentiment Coverage Results" MODIFIED="1590433976130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/DeepMojiStockTwits$to_pickle__1_.coverage" NAME="to_pickle (1) Coverage Results" MODIFIED="1587729585756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
 </project>

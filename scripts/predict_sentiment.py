@@ -170,13 +170,8 @@ for rpid_i in company_mapping['rpid'].unique():
     X = st.get_test_sentences(texts)
     pred_sentiment = model.predict(X, model_specs['batch_size'])
     data_i['DeepMoji'] = [(int(x > 0.5) - 0.5)*2 for x in pred_sentiment.flatten()]
-    # For the aggregation, we shift the date of messages posted during holidays or weekends to the next trading day:
-    data_i = data_i.merge(closing_info, how='left', on='Date')[['Date', 'Closed', 'DeepMoji']]
-    while any(data_i.Closed):
-        data_i['Date'] = data_i.apply(lambda x: x['Date'] + datetime.timedelta(days=1) if x['Closed'] else x['Date'], axis=1)
-        data_i = data_i.drop('Closed', axis=1).merge(closing_info, how='left', on='Date')
     # Aggregate sentiments on a daily basis:
-    sentiment_i = data_i.drop('Closed', axis=1).groupby('Date').aggregate({'DeepMoji': [bull, np.mean]})
+    sentiment_i = data_i.groupby('Date').aggregate({'DeepMoji': [bull, np.mean]})
     # Delete the raw data:
     del data_i
     # Transform multi-index column names to single level:
@@ -235,13 +230,8 @@ for rpid_i in company_mapping['rpid'].unique():
     X = st.get_test_sentences(texts)
     pred_sentiment = model.predict(X, model_specs['batch_size'])
     data_i['DeepMoji'] = [(int(x > 0.5) - 0.5)*2 for x in pred_sentiment.flatten()]
-    # For the aggregation, we shift the date of messages posted during holidays or weekends to the next trading day:
-    data_i = data_i.merge(closing_info, how='left', on='Date')[['Date', 'Closed', 'DeepMoji']]
-    while any(data_i.Closed):
-        data_i['Date'] = data_i.apply(lambda x: x['Date'] + datetime.timedelta(days=1) if x['Closed'] else x['Date'], axis=1)
-        data_i = data_i.drop('Closed', axis=1).merge(closing_info, how='left', on='Date')
     # Aggregate sentiments on a daily basis:
-    sentiment_i = data_i.drop('Closed', axis=1).groupby('Date').aggregate({'DeepMoji': [bull, np.mean, len]})
+    sentiment_i = data_i.groupby('Date').aggregate({'DeepMoji': [bull, np.mean]})
     # Delete the raw data:
     del data_i
     # Transform multi-index column names to single level:

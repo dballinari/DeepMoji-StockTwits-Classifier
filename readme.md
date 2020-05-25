@@ -12,20 +12,20 @@ enviroment of Python 2.7 was set-up:
 ```bash
 conda create -n deepmoji python=2.7
 ```
-In this virtual enviroment, install a 'theano'. Then navigate to the
+In this virtual enviroment, install a `theano`. Then navigate to the
 root folder where the DeepMoji files are located and run the installation
 file:
 ```bash
 pip install -e .
 ```
-Next the backend of keras has to be changed: either change in '.keras/keras.JSON' the 
-backend from "tensorflow" to "theano" or create a new folder '.keras_python27' (as a 
-copy of '.keras/') and change there the file 'keras.JSON'. In latter case, go to 
-'\_path\_\Miniconda3\envs\deepmoji\Lib\site-packages\keras\backend\\_\_init\_\_.py' and change
+Next the backend of keras has to be changed: either change in `.keras/keras.JSON` the 
+backend from "tensorflow" to "theano" or create a new folder `.keras_python27` (as a 
+copy of `.keras/`) and change there the file `keras.JSON`. In latter case, go to 
+`path_to_miniconda\Miniconda3\envs\deepmoji\Lib\site-packages\keras\backend\__init__.py` and change
 the location of the keras setting file to point to the newly created folder. Finally, 
-if when running the scripts an error about the 'ifelse' function appears, in the file 
-where the error occurs add at the beggining 'from theno import ifelse' and replace in the 
-code 'theano.ifelse' with 'ifelse'.
+if when running the scripts an error about the `ifelse` function appears, in the file 
+where the error occurs add at the beggining `from theno import ifelse` and replace in the 
+code `theano.ifelse` with `ifelse`.
 
 ## Project structure
 The projects consist of mainly four folders:

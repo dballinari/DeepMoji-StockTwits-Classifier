@@ -21,7 +21,7 @@ pip install -e .
 Next the backend of keras has to be changed: either change in '.keras/keras.JSON' the 
 backend from "tensorflow" to "theano" or create a new folder '.keras_python27' (as a 
 copy of '.keras/') and change there the file 'keras.JSON'. In latter case, go to 
-'_path_\Miniconda3\envs\deepmoji\Lib\site-packages\keras\backend\__init__.py' and change
+'\_path\_\Miniconda3\envs\deepmoji\Lib\site-packages\keras\backend\\_\_init\_\_.py' and change
 the location of the keras setting file to point to the newly created folder. Finally, 
 if when running the scripts an error about the 'ifelse' function appears, in the file 
 where the error occurs add at the beggining 'from theno import ifelse' and replace in the 

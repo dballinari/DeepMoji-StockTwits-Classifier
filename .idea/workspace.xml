@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b3cbf63-98f0-4cbc-ab8b-c11b973819ce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X6vLVLB5cV1cMU3DusAyZ6qcCj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\OneDrive\Research\Projects\Project Sentiment Race\DeepMojiStockTwits" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.to_pickle (1)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepMojiStockTwits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="convert_tweet_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepMojiStockTwits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\danie\Miniconda3\envs\tensorflow\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/convert_tweet_format.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fit_stocktwits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepMojiStockTwits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/fit_stocktwits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepMojiStockTwits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/predict_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="to_pickle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepMojiStockTwits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/to_pickle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="to_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepMojiStockTwits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\danie\Miniconda3\envs\tensorflow\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/to_pickle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.convert_tweet_format" />
+      <item itemvalue="Python.fit_stocktwits" />
+      <item itemvalue="Python.predict_sentiment" />
+      <item itemvalue="Python.to_pickle (1)" />
+      <item itemvalue="Python.to_pickle" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.to_pickle (1)" />
+        <item itemvalue="Python.predict_sentiment" />
+        <item itemvalue="Python.fit_stocktwits" />
+        <item itemvalue="Python.convert_tweet_format" />
+        <item itemvalue="Python.to_pickle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b3cbf63-98f0-4cbc-ab8b-c11b973819ce" name="Default Changelist" comment="" />
+      <created>1580379302471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580379302471</updated>
+      <workItem from="1581411955110" duration="2575000" />
+      <workItem from="1581431854470" duration="1568000" />
+      <workItem from="1581496119644" duration="882000" />
+      <workItem from="1581512160538" duration="17000" />
+      <workItem from="1582725448997" duration="1891000" />
+      <workItem from="1587721696639" duration="4932000" />
+      <workItem from="1590331856437" duration="177000" />
+      <workItem from="1590396609414" duration="191000" />
+      <workItem from="1590398482291" duration="7025000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="1637" height="163" key="GridCell.Tab.0.bottom/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885084" />
+    <state width="1637" height="163" key="GridCell.Tab.0.center/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885084" />
+    <state width="1637" height="163" key="GridCell.Tab.0.left/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885084" />
+    <state width="1637" height="163" key="GridCell.Tab.0.right/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="1637" height="163" key="GridCell.Tab.1.bottom/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="1637" height="163" key="GridCell.Tab.1.center/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="1637" height="163" key="GridCell.Tab.1.left/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1587733683072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581937885085" />
+    <state width="1637" height="163" key="GridCell.Tab.1.right/1680.0.2048.1120/0.0.1680.1010@0.0.1680.1010" timestamp="1582727432103" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right/1920.-358.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1587733683072" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data/to_pickle.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepMojiStockTwits$to_pickle__1_.coverage" NAME="to_pickle (1) Coverage Results" MODIFIED="1587729585756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+  </component>
+</project>
